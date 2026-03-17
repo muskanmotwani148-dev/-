@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["python311"]
+nixPkgs = ["python311Packages.pip", "python311"]
+
+[start]
+cmd = "python bot.py"
